@@ -1,0 +1,220 @@
+@media (max-width: 768px) {
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 5px dotted #4f2b52;
+  border-top: 5px dotted #4f2b52;
+  background-color: rgb(205, 177, 223);
+  z-index: 100;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #81308a;
+  font-size: 25px;
+  margin-right: 1px;
+}
+
+body {
+  background-color: #e3cef3;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Courgette";
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px dotted #4f2b52;
+}
+
+#welcome-section p {
+  font-size: 40px;
+}
+
+h1 {
+  color: #8a4c90;
+  font-size: 70px;
+}
+
+h2 {
+  color: #8a4c90;
+  font-size: 30px;
+}
+
+h4 {
+  color: #81308a;
+  font-size: 25px;
+}
+
+p {
+  color: #2d162f;
+  font-size: 20px;
+}
+
+.reading {
+  position: relative;
+  text-align: center;
+}
+
+.reading img {
+  width: 80%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+#reading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.movies-shows {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.movies-shows img {
+  width: 80%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+#movies-shows-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.gaming {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gaming img {
+  width: 80%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+#gaming-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.gym {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gym img {
+  width: 80%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+#gym-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.projects img {
+  width: 80vh;
+}
+
+.project-tile {
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+#projects2 img {
+  width: 600px;
+  height: 670px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* raspored za različite širine ekrana */
+  gap: 20px; /* razmak između kartica */
+  padding: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* lagani efekat senke */
+}
+
+.card h4 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 5px dotted #4f2b52;
+  border-top: 5px dotted #4f2b52;
+  background-color: rgb(205, 177, 223);
+  font-size: 25px;
+}
+
+#footer a {
+  text-decoration: none;
+}
